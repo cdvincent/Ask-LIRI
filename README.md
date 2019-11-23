@@ -11,7 +11,7 @@
 <img src="images/install.png"><br>
 
 <p>In order to initiate a search, you must always type "node liri.js"...followed by your preferred command, and finally your search term, all separated by spaces.</p><br>
-<img src="images/install.png"><br>
+<img src="images/example.png"><br>
 
 <p>Here is an example of using the "concert-this" command: </p><br>
 <img src="images/concert.png"><br>
@@ -19,7 +19,7 @@
 
 <p>Here is an example of using the "movie-this" command: </p><br>
 <img src="images/movie.png"><br>
-<p>The command is "movie-this" and the search term in the example is "groundhog day". The search term is again altered into a format that the OMDB API recognizes, and is added to the URL to search the API. OMDB returns the movies title, the year the movie was released, the imdb and rotten tomato ratings, the country of origin, the languages the movie is available in, and a short plot summary of the movie.</p><br>
+<p>The command is "movie-this" and the search term in the example is "groundhog day". The search term is again altered into a format that the OMDB API recognizes, and is added to the URL to search the API. OMDB returns the movies title, the year the movie was released, the imdb and rotten tomato ratings, the country of origin, the languages the movie is available in, a short plot summary, and the actors in the movie.</p><br>
 
 <p>Here is an example of using the "spotify-this" command: </p><br>
 <img src="images/song.png"><br>
@@ -28,6 +28,7 @@
 <p> Finally, here is an example of using the "do-what-it-says" command: </p><br>
 <img src="images/random.png"><br>
 <img src="images/text.png"><br>
-<p>The command is "do-what-it-says" and there initially is no search term. This command will reference the separate file called "random.txt" and take in the text in that file, and reassign the first term to the new command, and the following text to be the search term. In the above example, the command becomes "concert-this" and the search term becomes "greta van fleet". The command then runs as it would have if you typed it right into the command line.</p><br>
+<p>The command is "do-what-it-says" and there initially is no search term. This command will reference the separate file called "random.txt" and take in the text in that file, and separates the terms and remove the comma. It then reassigns the first term to the new command, and the following text to be the search term. In the above example, the command becomes "concert-this" and the search term becomes "greta van fleet". The command then runs as it would have if you typed it right into the command line.</p><br>
 <p>Here is one more example of different text in the random.txt file: </p><br>
+<img src="images/random2.png"><br>
 <img src="images/text2.png"><br>
