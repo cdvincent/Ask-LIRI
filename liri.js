@@ -25,7 +25,6 @@ if (command === "do-what-it-says") {
         userInput = data.split(", ")
         command = userInput[0];
         userInput = userInput[1].split(" ").join("+");
-        console.log(command);
         console.log(userInput);
     }
     commandCase();
@@ -38,7 +37,7 @@ function commandCase () {
         case "concert-this":
 
             let bandsUrl = "https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp";
-
+console.log(bandsUrl);
             axios.get(bandsUrl).then(
                 function(band) {
                     console.log("Band/Artist: " + userInput.split("+").join(" "));
@@ -93,7 +92,6 @@ function commandCase () {
                 }else {
                     songName += songArray[i];
                 }
-            console.log(songName);
             
             let spotify = new Spotify(keys.spotify);
 
