@@ -15,7 +15,7 @@
 
 <p>Here is an example of using the "concert-this" command: </p><br>
 <img src="images/concert.png"><br>
-<p>The command is "concert-this" and the search term in the example is "green day". The search term is altered into a format the bands in town API can understand and inserted into the URL needed to search. The API then returns the band/artist that was searched, the next concert venue they will be performing, the city of that venure, and the date of the concert.</p><br>
+<p>The command is "concert-this" and the search term in the example is "green day". The search term is altered into a format the bands in town API can understand and inserted into the URL needed to search. The API then returns the band/artist that was searched, the next concert venue they will be performing, the city of that venue, and the date of the concert.</p><br>
 
 <p>Here is an example of using the "movie-this" command: </p><br>
 <img src="images/movie.png"><br>
