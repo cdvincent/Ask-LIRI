@@ -1,12 +1,25 @@
 <h1>Ask LIRI</h1>
 
-<h4>Description</h4>
+<h4>Link</h4>
+<p>https://github.com/cdvincent/Ask-LIRI</p>
+
+<h4>Technology Used</h4>
+<p>
+<ul>
+    <li>Javascript</li>
+    <li>Bands In Town API</li>
+    <li>Spotify API</li>
+    <li>OMDB API</li>
+</ul>
+</p>
+
+<h2>Description</h2>
 <p>LIRI Bot is a Language Interpretation and Recognition Interface. It is an application that allows users to search for their favorite song, favorite band's next concert, or their favorite movie.</p><br>
 
 <p>The app takes in a users input and shows results based on those search parameters. The LIRI Bot takes in 4 different commands:<ul><li>concert-this</li><li>movie-this</li><li>spotify-this</li><li>do-what-it-says</li></ul><br>
 <p>LIRI Bot utilizes the "Axios" npm in order to communicate with the "Bands In Town" and "OMDB" API's, and the "Moment" npm to format dates. It also uses the "node-spotify-api" npm in order to communicate with the "Spotify" API to search for songs.</p>
 
-<h4>Walkthrough</h4>
+<h2>Tutorial</h2>
 <p>Navigate to the program in the terminal and type "npm i" to install the dependencies.</p><br>
 <img src="images/install.png"><br>
 
